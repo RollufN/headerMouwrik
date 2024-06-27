@@ -202,7 +202,7 @@ header{
     }
 
     .redOverlay div.header img{
-        margin: 0px 15vw 0px 7vw;
+        margin: 0px 5vw 0px 7vw;
         width: 200px;
     }
 
@@ -213,7 +213,7 @@ header{
     }
 
     .header img + div h2 + a{
-        font-size: 9px;
+        font-size: 10px;
         height: 20px;
         padding: 0px 10px;
         width: 70px;
