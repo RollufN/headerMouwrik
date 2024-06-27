@@ -207,7 +207,7 @@ header{
     }
 
     .bigHeaderText span{
-        padding-top: 5px;
+        padding: 2px 0px 0px 0px;
         font-family: "MetaProTel";
     }
 
@@ -239,7 +239,7 @@ header{
     }
 
     .headerDescription{
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .headerDescription + a{
