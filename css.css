@@ -56,7 +56,7 @@ header{
 }
 
 .bigHeaderText span{
-    background: linear-gradient(-45deg, transparent 15px, #B20838 0);
+    background: linear-gradient(-45deg, transparent 10px, #B20838 0);
     font-family: "MetaProBold";
     padding: 10px 15px 0px 15px;
 }
@@ -207,7 +207,7 @@ header{
     }
 
     .bigHeaderText span{
-        padding: 2px 0px 0px 0px;
+        padding: 6px 15px 0px 10px;
         font-family: "MetaProTel";
     }
 
