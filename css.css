@@ -199,14 +199,14 @@ header{
 
     .redOverlay div.header img{
         margin: 0px 5vw 0px 7vw;
-        width: 10px;
+        width: 125px;
     }
 
     .header img + h2 + a{
-        font-size: 5px;
+        font-size: 10px;
     }
 
     .header img + h2{
-        font-size: 5px;
+        font-size: 11px;
     }
 }
