@@ -55,10 +55,14 @@ header{
     margin: 100px 15vw;
 }
 
-.bigHeaderText span{
+.bigHeaderText span.redBackground{
     background: linear-gradient(-45deg, transparent 10px, #B20838 0);
     font-family: "MetaProBold";
     padding: 10px 15px 0px 15px;
+}
+
+.bigHeaderText span{
+    font-family: "MetaProBold";
 }
 
 .headerDescription{
@@ -206,9 +210,10 @@ header{
         font-family: "MetaProTel";
     }
 
-    .bigHeaderText span{
+    .bigHeaderText span.redBackground{
         padding: 3px 15px 0px 10px;
         font-family: "MetaProTel";
+        
     }
 
     .redOverlay div.header img{
@@ -244,5 +249,10 @@ header{
 
     .headerDescription + a{
         font-size: 17px;
+    }
+
+    .bigHeaderText span{
+        font-family: "MetaProTel";
+        line-height: 60px;
     }
 }
