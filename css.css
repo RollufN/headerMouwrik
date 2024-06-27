@@ -94,13 +94,17 @@ header{
     border-bottom: 2px solid white;
 }
 
-.header img + h2{
+.header img + div {
+    display: flex;
+}
+
+.header img + div h2{
     color: white;
     font-size: 18px;
     margin: 0px 2vw;
 }
 
-.header img + h2 + a{
+.header img + div h2 + a{
     display: flex;
     color: #B20838;
     text-decoration: none;
@@ -153,11 +157,11 @@ header{
         width: 250px;
     }
 
-    .header img + h2 + a{
+    .header img + div h2 + a{
         font-size: 14px;
     }
 
-    .header img + h2{
+    .header img + div h2{
         font-size: 16px;
     }
 }
@@ -170,7 +174,7 @@ header{
     }
 
     .headerDescription{
-        font-size: 12px;
+        font-size: 14px;
         width: 75vw;
     }
 
@@ -183,11 +187,11 @@ header{
         width: 175px;
     }
 
-    .header img + h2 + a{
+    .header img + div h2 + a{
         font-size: 12px;
     }
 
-    .header img + h2{
+    .header img + div h2{
         font-size: 13px;
     }
 }
@@ -198,18 +202,29 @@ header{
     }
 
     .redOverlay div.header img{
-        margin: 0px 5vw 0px 7vw;
-        width: 125px;
+        margin: 0px 15vw 0px 7vw;
+        width: 200px;
     }
 
-    .header img + h2 + a{
+
+    .header img + div{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header img + div h2 + a{
         font-size: 10px;
         height: 20px;
         padding: 0px 10px;
+        width: 70px;
         background: linear-gradient(-45deg, transparent 5px, white 0);
     }
 
     .header img + h2{
         font-size: 11px;
+    }
+
+    .headerDescription{
+        font-size: 13px;
     }
 }
