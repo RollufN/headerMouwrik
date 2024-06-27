@@ -4,6 +4,11 @@
   }
 
   @font-face {
+    font-family: MetaProTel;
+    src: url(Meta-pro/FFMetaProBold.TTF);
+  }
+
+  @font-face {
     font-family: MetaProRegular;
     src: url(Meta-pro/FFMetaProRegular.TTF);
   }
@@ -197,8 +202,13 @@ header{
 }
 
 @media only screen and (max-width: 500px) {
+    .bigHeaderText{
+        font-family: "MetaProTel";
+    }
+
     .bigHeaderText span{
         padding-top: 5px;
+        font-family: "MetaProTel";
     }
 
     .redOverlay div.header img{
@@ -213,12 +223,12 @@ header{
     }
 
     .header img + div h2 + a{
-        font-size: 9px;
-        height: 20px;
-        padding: 0px 0px 0px 10px;
+        font-size: 14px;
+        height: 30px;
+        padding: 2px 0px 0px 10px;
         margin-top: 5px;
-        width: 75px;
-        background: linear-gradient(-45deg, transparent 3px, white 0);
+        width: 110px;
+        background: linear-gradient(-45deg, transparent 8px, white 0);
     }
 
     .header img + h2{
@@ -226,6 +236,10 @@ header{
     }
 
     .headerDescription{
-        font-size: 13px;
+        font-size: 14px;
+    }
+
+    .headerDescription + a{
+        font-size: 17px;
     }
 }
