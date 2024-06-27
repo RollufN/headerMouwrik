@@ -150,11 +150,11 @@ header{
     }
 
     .headerDescription{
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .headerDescription + a{
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .redOverlay div.header img{
@@ -250,6 +250,5 @@ header{
 
     .redOverlay{
     background: transparent linear-gradient(270deg, #8104274D 0%, #700322E0 77%, #54021A 88%, #410214 100%) 0% 0% no-repeat padding-box;;
-
     }
 }
