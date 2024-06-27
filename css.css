@@ -216,8 +216,8 @@ header{
         font-size: 9px;
         height: 20px;
         padding-left: 10px;
-        width: 85px;
-        background: linear-gradient(-45deg, transparent 5px, white 0);
+        width: 75px;
+        background: linear-gradient(-45deg, transparent 3px, white 0);
     }
 
     .header img + h2{
