@@ -213,7 +213,7 @@ header{
     }
 
     .header img + div h2 + a{
-        font-size: 10px;
+        font-size: 9px;
         height: 20px;
         padding: 0px 10px;
         width: 70px;
@@ -221,7 +221,7 @@ header{
     }
 
     .header img + h2{
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .headerDescription{
