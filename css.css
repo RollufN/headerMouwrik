@@ -207,7 +207,7 @@ header{
     }
 
     .bigHeaderText span{
-        padding: 4px 15px 0px 10px;
+        padding: 3px 15px 0px 10px;
         font-family: "MetaProTel";
     }
 
@@ -227,7 +227,7 @@ header{
         font-size: 14px;
         height: 30px;
         padding: 2px 0px 0px 10px;
-        margin-top: 30px;
+        margin-top: 32px;
         margin-left: 5vw;
         width: 110px;
         background: linear-gradient(-45deg, transparent 8px, white 0);
