@@ -247,4 +247,9 @@ header{
     .headerDescription + a{
         font-size: 17px;
     }
+
+    .redOverlay{
+    background: transparent linear-gradient(270deg, #8104274D 0%, #700322E0 77%, #54021A 88%, #410214 100%) 0% 0% no-repeat padding-box;;
+
+    }
 }
